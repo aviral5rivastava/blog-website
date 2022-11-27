@@ -15,3 +15,8 @@ const blogSchema = mongoose.Schema({
     default: new Date(),
   },
 });
+
+
+var BlogPost = mongoose.model("BlogArticle", blogSchema);
+
+export default BlogPost;
